@@ -16,7 +16,14 @@
 	<ul>
         <% gr8.forEach(gr8 => {%>
             <li>
-            <a href="/<%= gr8.id %>"> <%= gr8.body %></a>
+            <a href="/<%= gr8.id %>"> <%= gr8.body %></a><br />
+			
+			<form action="/<%= gr8.id %>/edit" style="display:inline;">
+				<input type="submit" value="Edit" />
+			</form>
+			<form action="/<%=gr8.id%>?_method=DELETE" method="POST" style="display:inline;" margin-left:16px;>
+				<input type="submit" value="DELETE" />
+			</form>
             </li>
         <% }); %>
     </ul>

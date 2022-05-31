@@ -9,7 +9,16 @@
 <body>
     <h1>I'm Grateful for:</h1>
     <h2> <%= gr8.body %></h2>
-    <%= gr8.date %>
+    <%= gr8.date %><br />
+<br />
+ <form action="/<%= gr8.id %>/edit" style="display:inline;">
+        <input type="submit" value="Edit" />
+</form>
+
+<form action="/<%=gr8.id%>?_method=DELETE" method="POST" style="display:inline;" margin-left:16px;>
+        <input type="submit" value="DELETE" />
+</form><br />
+<br />
 <form action="/">
     <Button type="submit">Back To Gratitude Wall</Button>
 </form>

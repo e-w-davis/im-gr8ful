@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+</head>
+<body>
+    <h1>Edit Gratitude</h1>
+    <form action="/<%=gr8._id%>?_method=PUT" method="POST">
+    Body: <input type="text" name="body" value="<%= gr8.body %>" required="true" /><br />
+    Date: <input type="date" name="date" value="<%= gr8.date %>" required="true" /><br />
+    <input type="submit" value="Save Edit" />
+</form>
+    
+</body>
+</html>

@@ -1,4 +1,5 @@
-require('dotenv').config();
+require('dotenv').config()
+
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
@@ -27,3 +28,5 @@ app.use(methodOverride('_method'));
 
 // Routes / Controllers
 app.use(gr8Controller);
+
+app.listen(process.env.PORT || 3000)

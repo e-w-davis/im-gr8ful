@@ -5,8 +5,6 @@ const mongoose = require('mongoose');
 const methodOverride = require('method-override');
 const gr8Controller = require('./controllers/gr8.js');
 
-// node
-
 
 // Database Configuration
 mongoose.connect(process.env.DATABASE_URL, {

@@ -7,7 +7,7 @@ const gr8Controller = require('./controllers/gr8.js');
 const MONGODB_URI = process.env.MONGODB_URI;
 
 // Database Configuration
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect(MONGODB_URI, {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 });

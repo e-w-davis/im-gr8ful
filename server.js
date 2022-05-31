@@ -6,10 +6,10 @@ const mongoose = require('mongoose');
 
 const methodOverride = require('method-override');
 const gr8Controller = require('./controllers/gr8.js');
-const MONGODB_URI = process.env.MONGODB_URI;
+const MONGO_URI = process.env.MONGO_URI;
 
 // Database Configuration
-mongoose.connect(MONGODB_URI, {
+mongoose.connect(MONGO_URI, {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 });

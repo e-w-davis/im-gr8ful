@@ -2,16 +2,18 @@
 <html lang="en">
 
 <head>
+	<%- include('./partials/header.ejs') %>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/styles.css">
 	<title>I'm Gr8ful</title>
 </head>
 <body>
 	<form action="/new">
 		<button type="submit">Add a Gratitude</button>
 	</form><br />
-	<h1>I'm Gr8ful for:</h1>
+	<h1>I'm grateful for:</h1>
 
 	<ul>
         <% gr8.forEach(gr8 => {%>

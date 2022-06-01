@@ -6,6 +6,9 @@ This app will be function as a wall of gratitude where users can anonoymously sh
 
 Since all users are allowed to post, edit and delete entries, they are therefor encouraced to moderate the page as an autonymous hivemind.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Languages Used
+JavaScript, Embeded JavaScript, and CSS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Trello Link
 https://trello.com/b/uU9C7XTI/im-gr8ful
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

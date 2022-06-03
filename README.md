@@ -8,6 +8,9 @@ Since all users are allowed to post, edit and delete entries, they are therefor 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Languages Used
 JavaScript, Embeded JavaScript, and CSS
+
+Database Technology
+Mongoose, MongoDB
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Trello Link
 https://trello.com/b/uU9C7XTI/im-gr8ful
